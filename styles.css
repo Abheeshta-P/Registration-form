@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   background-color: white;
   padding: 20px;
@@ -26,15 +26,23 @@ label {
 }
 
 input, textarea, button {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   border-radius: 4px;
+  resize: none;
 }
 
 button {
-  background-color: #4CAF50;
+  width: 100%;
+  font-weight: bold;
+  padding: 14px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1a971e;
   color: white;
   cursor: pointer;
 }
